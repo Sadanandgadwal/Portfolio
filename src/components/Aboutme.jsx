@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { CheckCircleIcon } from "@heroicons/react/20/solid";
+import { BsFillCircleFill } from "react-icons/bs";
 import Profile from "../images/sadanand.jpg";
 import Techstack from "../images/Techstack.png";
 import EasyBooks from "../images/EasyBooks.png";
@@ -86,7 +86,7 @@ export default function Aboutme() {
                 >
                   {skills.map((benefit) => (
                     <li key={benefit} className="flex gap-x-3">
-                      <CheckCircleIcon
+                      <BsFillCircleFill
                         className="h-7 w-5 flex-none"
                         aria-hidden="true"
                       />
