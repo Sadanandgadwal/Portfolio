@@ -4,6 +4,7 @@ import Techstack from "../images/Techstack.png";
 import EasyBooks from "../images/EasyBooks.png";
 import Attendance from "../images/attendancereport.jpeg";
 import CUK from "../images/CUK-IQAC.png";
+import news from "../images/news.png";
 import React from "react";
 
 const portfolio = [
@@ -12,7 +13,14 @@ const portfolio = [
     tech: "HTML / CSS / Javascript",
     imageUrl: Techstack,
     des: "Landing with header to footer",
-    Demo: "https://sadanandgadwal.github.io/teckstack/",
+    Demo: "https://techstackyesg.netlify.app/",
+  },
+  {
+    Projectname: "YesG News",
+    tech: "Reactjs/Api",
+    imageUrl: news,
+    des: "News App using NewsApi",
+    Demo: "https://newsappyesg.netlify.app/",
   },
   {
     Projectname: "EasyBooks",
