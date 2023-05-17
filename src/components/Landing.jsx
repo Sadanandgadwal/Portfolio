@@ -27,7 +27,7 @@ function Landing() {
             <br />
             <div className="wrapper">
               {/* <a className="cta" href="./Aboutme.jsx"> */}
-              <Link to="Aboutme" smooth="true" className="cta">
+              <Link to="About Me" smooth="true" className="cta">
                 <span className="span">About Me</span>
 
                 <span className="span">
@@ -35,9 +35,9 @@ function Landing() {
                     <g
                       id="arrow"
                       stroke="none"
-                      stroke-width="1"
+                      strokewidth="1"
                       fill="none"
-                      fill-rule="evenodd"
+                      fillrule="evenodd"
                     >
                       <path
                         className="one"

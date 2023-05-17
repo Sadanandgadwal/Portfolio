@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { BsFillCircleFill } from "react-icons/bs";
+import { CheckCircleIcon } from "@heroicons/react/20/solid";
 import Profile from "../images/sadanand.jpg";
 import Techstack from "../images/Techstack.png";
 import EasyBooks from "../images/EasyBooks.png";
@@ -7,7 +7,7 @@ import Attendance from "../images/attendancereport.jpeg";
 import CUK from "../images/CUK-IQAC.png";
 import React from "react";
 import { Link } from "react-scroll";
-const team = [
+const portfolio = [
   {
     Projectname: "Techstack",
     tech: "HTML / CSS / Javascript",
@@ -86,7 +86,7 @@ export default function Aboutme() {
                 >
                   {skills.map((benefit) => (
                     <li key={benefit} className="flex gap-x-3">
-                      <BsFillCircleFill
+                      <CheckCircleIcon
                         className="h-7 w-5 flex-none"
                         aria-hidden="true"
                       />
@@ -137,21 +137,21 @@ export default function Aboutme() {
             role="list"
             className="mx-auto mt-20 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-14 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3 xl:grid-cols-4"
           >
-            {team.map((person) => (
-              <li key={person.Projectname}>
+            {portfolio.map((project) => (
+              <li key={project.Projectname}>
                 <img
                   className="aspect-[14/13] w-full rounded-2xl object-contain border"
-                  src={person.imageUrl}
+                  src={project.imageUrl}
                   alt=""
                 />
 
                 <h3 className="mt-6 text-lg font-semibold leading-8 tracking-tight text-white">
-                  {person.Projectname}
+                  {project.Projectname}
                 </h3>
                 <p className="text-base leading-7 text-gray-300">
-                  {person.tech}
+                  {project.tech}
                 </p>
-                <p className="text-sm leading-6 text-gray-500">{person.des}</p>
+                <p className="text-sm leading-6 text-gray-500">{project.des}</p>
                 {/* <button>
                   <p className="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">
                     {person.Demo}
@@ -163,12 +163,16 @@ export default function Aboutme() {
                 {/* <button className="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">
                   {person.Demo}
                 </button> */}
-                <Link
-                  to={person.Demo}
-                  className="text-sm leading-6 text-gray-50 hover:text-gray-400 cursor-pointer"
+                <a
+                  herf={project.Demo}
+                  className="text-sm leading-6 text-gray-50 hover:text-gray-400 cursor-pointer "
+                  onClick={(e) => {
+                    e.preventDefault();
+                    window.open(project.Demo, "_blank", "noreffrer");
+                  }}
                 >
                   Live --
-                </Link>
+                </a>
               </li>
             ))}
           </ul>
