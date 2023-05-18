@@ -1,11 +1,10 @@
 import { BsFillCircleFill } from "react-icons/bs";
-import Profile from "../images/sadanand.jpg";
+import Profile from "../images/sadanand1.jpeg";
 import Techstack from "../images/Techstack.png";
 import EasyBooks from "../images/EasyBooks.png";
 import Attendance from "../images/attendancereport.jpeg";
 import CUK from "../images/CUK-IQAC.png";
 import news from "../images/news.png";
-import React from "react";
 
 const portfolio = [
   {
