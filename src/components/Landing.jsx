@@ -8,55 +8,53 @@ function Landing() {
     <>
       <div
         className="min-h-screen bg-cover bg-no-repeat bg-fixed bg-center"
-        style={{ backgroundImage: `url(${image})` }}
+        style={{
+          backgroundImage: `url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1011%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='%230e2a47'%3e%3c/rect%3e%3cpath d='M504.6008457473367 238.82472252729303L476.288706815634 140.08856028084273 342.3405329118099 231.92484980162192z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1342.9657759506686 473.3314694978758L1428.4939509227927 421.9409573398278 1291.5752637926205 387.8032945257517z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M670.9315239923276 157.08767776299248L519.457101216419 58.51367164030751 508.4368609237625 216.1104501343586z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1294.023%2c441.994C1310.735%2c442.032%2c1329.119%2c439.01%2c1337.405%2c424.497C1345.644%2c410.064%2c1338.343%2c393.05%2c1330.253%2c378.533C1321.86%2c363.471%2c1311.26%2c347.081%2c1294.023%2c346.645C1276.301%2c346.197%2c1263.071%2c361.112%2c1254.477%2c376.618C1246.197%2c391.558%2c1242.141%2c409.685%2c1250.982%2c424.3C1259.587%2c438.526%2c1277.397%2c441.956%2c1294.023%2c441.994' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1397.1592983668618 59.63993955844245L1298.329341267689 17.689111682768015 1284.8180780037637 186.90946126936427z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1078.145%2c538.852C1105.337%2c538.624%2c1127.538%2c521.191%2c1142.794%2c498.68C1160.79%2c472.126%2c1178.869%2c440.182%2c1164.425%2c411.541C1149.053%2c381.062%2c1112.188%2c367.976%2c1078.145%2c370.492C1047.934%2c372.725%2c1025.315%2c395.914%2c1011.45%2c422.848C998.871%2c447.285%2c997.894%2c475.951%2c1011.593%2c499.779C1025.336%2c523.682%2c1050.574%2c539.083%2c1078.145%2c538.852' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M412.155%2c735.999C467.271%2c736.317%2c500.08%2c679.124%2c523.526%2c629.242C542.98%2c587.852%2c542.595%2c542.317%2c522.5%2c501.234C499.157%2c453.511%2c465.174%2c404.92%2c412.155%2c401.555C354.686%2c397.908%2c299.567%2c433.629%2c274.557%2c485.5C252.015%2c532.252%2c278.001%2c582.477%2c302.989%2c627.969C329.406%2c676.061%2c357.286%2c735.682%2c412.155%2c735.999' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M131.84764926325101 234.53378359936758L146.308494933545 292.53306769658707 226.07699824422724 241.84215714253634z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1263.226%2c175.56C1280.736%2c175.542%2c1297.498%2c166.662%2c1305.774%2c151.231C1313.664%2c136.521%2c1309.416%2c119.272%2c1301.215%2c104.733C1292.834%2c89.874%2c1280.243%2c77.005%2c1263.226%2c75.799C1244.09%2c74.443%2c1224.051%2c81.898%2c1214.609%2c98.597C1205.28%2c115.096%2c1210.402%2c135.294%2c1220.525%2c151.319C1229.894%2c166.15%2c1245.684%2c175.578%2c1263.226%2c175.56' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1011'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e")`,
+        }}
         id="Portfolio"
       >
         <div className="w-full h-screen flex items-center justify-center ">
           <div>
-            <p className="text-5xl text-white ">
+            <p className="text-4xl text-white flex items-center justify-center">
               Hello,I'm{" "}
               <span className="text-orange-300 font-bold text-center">
                 Sadanand Gadwal
               </span>
             </p>
             <br />
-            <p className="text-5xl text-white flex items-center justify-center">
+            <p className="text-4xl text-white flex items-center  justify-center">
               {" "}
               I'm a Front-End Web Developer
             </p>
             <br />
             <div className="wrapper">
               {/* <a className="cta" href="./Aboutme.jsx"> */}
-              <Link to="About Me" smooth="true" className="cta">
-                <span className="span">About Me</span>
-
-                <span className="span">
-                  <svg width="66px" height="43px" viewBox="0 0 66 43">
-                    <g
-                      id="arrow"
-                      stroke="none"
-                      strokewidth="1"
+              <Link to="About Me" smooth="true" className="ct">
+                <a
+                  href="#_"
+                  class="relative inline-flex items-center justify-center p-4 px-6 py-3 overflow-hidden font-medium text-white-600 transition duration-300 ease-out border-2 border-white-500 rounded-full shadow-md group"
+                >
+                  <span class="absolute inset-0 flex items-center justify-center w-full h-full text-white duration-300 -translate-x-full bg-white-500 group-hover:translate-x-0 ease">
+                    <svg
+                      class="w-6 h-6"
                       fill="none"
-                      fillrule="evenodd"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
                     >
                       <path
-                        className="one"
-                        d="M40.1543933,3.89485454 L43.9763149,0.139296592 C44.1708311,-0.0518420739 44.4826329,-0.0518571125 44.6771675,0.139262789 L65.6916134,20.7848311 C66.0855801,21.1718824 66.0911863,21.8050225 65.704135,22.1989893 C65.7000188,22.2031791 65.6958657,22.2073326 65.6916762,22.2114492 L44.677098,42.8607841 C44.4825957,43.0519059 44.1708242,43.0519358 43.9762853,42.8608513 L40.1545186,39.1069479 C39.9575152,38.9134427 39.9546793,38.5968729 40.1481845,38.3998695 C40.1502893,38.3977268 40.1524132,38.395603 40.1545562,38.3934985 L56.9937789,21.8567812 C57.1908028,21.6632968 57.193672,21.3467273 57.0001876,21.1497035 C56.9980647,21.1475418 56.9959223,21.1453995 56.9937605,21.1432767 L40.1545208,4.60825197 C39.9574869,4.41477773 39.9546013,4.09820839 40.1480756,3.90117456 C40.1501626,3.89904911 40.1522686,3.89694235 40.1543933,3.89485454 Z"
-                        fill="#FFFFFF"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M14 5l7 7m0 0l-7 7m7-7H3"
                       ></path>
-                      <path
-                        className="two"
-                        d="M20.1543933,3.89485454 L23.9763149,0.139296592 C24.1708311,-0.0518420739 24.4826329,-0.0518571125 24.6771675,0.139262789 L45.6916134,20.7848311 C46.0855801,21.1718824 46.0911863,21.8050225 45.704135,22.1989893 C45.7000188,22.2031791 45.6958657,22.2073326 45.6916762,22.2114492 L24.677098,42.8607841 C24.4825957,43.0519059 24.1708242,43.0519358 23.9762853,42.8608513 L20.1545186,39.1069479 C19.9575152,38.9134427 19.9546793,38.5968729 20.1481845,38.3998695 C20.1502893,38.3977268 20.1524132,38.395603 20.1545562,38.3934985 L36.9937789,21.8567812 C37.1908028,21.6632968 37.193672,21.3467273 37.0001876,21.1497035 C36.9980647,21.1475418 36.9959223,21.1453995 36.9937605,21.1432767 L20.1545208,4.60825197 C19.9574869,4.41477773 19.9546013,4.09820839 20.1480756,3.90117456 C20.1501626,3.89904911 20.1522686,3.89694235 20.1543933,3.89485454 Z"
-                        fill="#FFFFFF"
-                      ></path>
-                      <path
-                        className="three"
-                        d="M0.154393339,3.89485454 L3.97631488,0.139296592 C4.17083111,-0.0518420739 4.48263286,-0.0518571125 4.67716753,0.139262789 L25.6916134,20.7848311 C26.0855801,21.1718824 26.0911863,21.8050225 25.704135,22.1989893 C25.7000188,22.2031791 25.6958657,22.2073326 25.6916762,22.2114492 L4.67709797,42.8607841 C4.48259567,43.0519059 4.17082418,43.0519358 3.97628526,42.8608513 L0.154518591,39.1069479 C-0.0424848215,38.9134427 -0.0453206733,38.5968729 0.148184538,38.3998695 C0.150289256,38.3977268 0.152413239,38.395603 0.154556228,38.3934985 L16.9937789,21.8567812 C17.1908028,21.6632968 17.193672,21.3467273 17.0001876,21.1497035 C16.9980647,21.1475418 16.9959223,21.1453995 16.9937605,21.1432767 L0.15452076,4.60825197 C-0.0425130651,4.41477773 -0.0453986756,4.09820839 0.148075568,3.90117456 C0.150162624,3.89904911 0.152268631,3.89694235 0.154393339,3.89485454 Z"
-                        fill="#FFFFFF"
-                      ></path>
-                    </g>
-                  </svg>
-                </span>
+                    </svg>
+                  </span>
+                  <span class="absolute flex items-center justify-center w-full h-full text-white transition-all duration-300 transform group-hover:translate-x-full ease">
+                    About Me
+                  </span>
+                  <span class="relative invisible">Button Text</span>
+                </a>
                 {/* </a> */}
               </Link>
             </div>
