@@ -42,14 +42,24 @@ const portfolio = [
     des: "Attendance Report is a software developed for daily employees attendance in offices and group.",
     Demo: "https://cuk.ac.in/CUK-IQAC/index.php",
   },
+  {
+    Projectname: "Todo APP",
+    tech: "MERN",
+    imageUrl: TODO,
+    des: "Todo using Mern Stack here we can add todo, delete todo, completed todo",
+    Demo: "https://todoapp-yesg.netlify.app",
+  },
 ];
 const skills = [
   "React js         ★★★☆☆",
-  "Next js          ★★☆☆☆",
-  "Tailwind css     ★★★☆☆",
+  "Express js       ★★☆☆☆",
+  "Node js          ★★☆☆☆",
+  "Mongo DB         ★★☆☆☆",
   "Javascript       ★★★☆☆",
+  "Tailwind css     ★★★☆☆",
   "Graphic Designer ★★★☆☆",
   "Logo Designer    ★★★☆☆",
+  "Next js          ★★☆☆☆",
 ];
 // const Rate = ["★★★☆☆", "★★☆☆☆", "★★★☆☆", "★★★☆☆", "★★★☆☆", "★★★☆☆"];
 export default function Aboutme() {
@@ -78,13 +88,14 @@ export default function Aboutme() {
                   Sadanand Gadwal
                 </h2>
                 <p className="mt-6 text-lg leading-8 text-gray-300">
-                  I'm a Front-End Web Developer. Currently pursuing MCA. From
-                  Central University of Karnataka,Kalaburagi. I have very
-                  serious passion towards Web develeopment. Skilled in tech
-                  [React js, Next js]. not limited to only these programming . I
-                  am a fast learner and can adopt new stack as per requirements.
-                  I am confident that my passion for Web develeopment make me a
-                  strong candidate for your company."
+                  I'm a Full Stack Web Developer, MERN. Currently pursuing MCA.
+                  From the Central University of Karnataka, Kalaburagi. I have a
+                  very serious passion towards Web development. I am skilled in
+                  tech [React js, Mongo DB, Express js, Node js ]. not limited
+                  to only this programming. I am a fast learner and I can adapt
+                  new stacks according to the requirements. I am confident that
+                  my passion for Web development makes me a strong candidate for
+                  your company.
                 </p>
                 <ul
                   role="list"
