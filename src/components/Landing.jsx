@@ -24,7 +24,7 @@ function Landing() {
             <br />
             <p className="text-4xl text-white flex items-center  justify-center">
               {" "}
-              I'm a Front-End Web Developer
+              I'm a Full Stack Web Developer
             </p>
             <br />
             <div className="wrapper">
