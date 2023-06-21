@@ -90,18 +90,17 @@ export default function Portfolio() {
                   {/* <button className="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">
                   {person.Demo}
                 </button> */}
-                  <a
-                    herf={project.Demo}
+                  <span
                     className="text-sm leading-6 text-gray-50 hover:text-gray-400 cursor-pointer "
                     onClick={(e) => {
                       e.preventDefault();
-                      project.Demo, "_blank", "noreffrer";
+                      window.open(project.Demo, "_blank", "noreffrer");
                     }}
                   >
                     <button class="bg-blue-500 hover:bg-blue-700 text-white font-sans py-1 px-2 rounded">
                       View
                     </button>
-                  </a>
+                  </span>
                 </li>
               ))}
             </ul>
