@@ -1,5 +1,5 @@
 import { BsFillCircleFill } from "react-icons/bs";
-import Profile from "../images/sadanand1.jpeg";
+import Profile from "../images/sadanand.jpg";
 
 const skills = [
   "React js         ★★★☆☆",
@@ -28,7 +28,7 @@ export default function Aboutme() {
         </div>
 
         <div className="relative isolate -z-10 mt-32 sm:mt-16">
-          <div className="mx-auto max-w-8xl sm:px-6 lg:px-8">
+          <div className="mx-auto max-w-[7.5]xl sm:px-6 lg:px-8">
             <div className="mx-auto flex max-w-2xl flex-col gap-16 bg-white/5 px-6 py-16 ring-1 ring-white/10 sm:rounded-3xl sm:p-8 lg:mx-0 lg:max-w-none lg:flex-row lg:items-center lg:py-20 xl:gap-x-20 xl:px-20">
               <img
                 className="h-96 w-full flex-none rounded-2xl  shadow-xl lg:aspect-square lg:h-auto lg:max-w-sm object-contain"
