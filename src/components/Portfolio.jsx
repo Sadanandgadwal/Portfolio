@@ -79,22 +79,12 @@ export default function Portfolio() {
                   <p className="text-sm leading-6 text-gray-500">
                     {project.des}
                   </p>
-                  {/* <button>
-                  <p className="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">
-                    {person.Demo}
-                  </p>
-                </button> */}
-                  {/* <button className="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-4 focus:outline-none hover:bg-indigo-600 rounded text-lg">
-                  Live
-                </button> */}
-                  {/* <button className="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">
-                  {person.Demo}
-                </button> */}
+
                   <span
                     className="text-sm leading-6 text-gray-50 hover:text-gray-400 cursor-pointer "
                     onClick={(e) => {
                       e.preventDefault();
-                      window.open(project.Demo, "_blank", "noreffrer");
+                      window.open(project.Demo, "_blank", "noreferrer");
                     }}
                   >
                     <button class="bg-blue-500 hover:bg-blue-700 text-white font-sans py-1 px-2 rounded">
