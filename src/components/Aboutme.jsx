@@ -1,56 +1,6 @@
 import { BsFillCircleFill } from "react-icons/bs";
 import Profile from "../images/sadanand1.jpeg";
-import Techstack from "../images/Techstack.png";
-import EasyBooks from "../images/EasyBooks.png";
-import Attendance from "../images/attendancereport.jpeg";
-import CUK from "../images/CUK-IQAC.png";
-import news from "../images/news.png";
-import TODO from "../images/todo.png";
 
-const portfolio = [
-  {
-    Projectname: "Techstack",
-    tech: "HTML / CSS / Javascript",
-    imageUrl: Techstack,
-    des: "Landing with header to footer",
-    Demo: "https://techstackyesg.netlify.app/",
-  },
-  {
-    Projectname: "YesG News",
-    tech: "Reactjs/Api",
-    imageUrl: news,
-    des: "News App using NewsApi",
-    Demo: "https://newsappyesg.netlify.app/",
-  },
-  {
-    Projectname: "EasyBooks",
-    tech: "React js",
-    imageUrl: EasyBooks,
-    des: "PDF's Text-Books Are Available For BCA,MCA,BBM,MBA with Single Click",
-    Demo: "https://easybooksyesg.netlify.app",
-  },
-  {
-    Projectname: "Attendance Data Report",
-    tech: "React js",
-    imageUrl: Attendance,
-    des: "Attendance Report is a software developed for daily employees attendance in offices and group.",
-    Demo: "https://develearn-office-attendance-reports.vercel.app/",
-  },
-  {
-    Projectname: "CUK-IQAC",
-    tech: "Php",
-    imageUrl: CUK,
-    des: "Attendance Report is a software developed for daily employees attendance in offices and group.",
-    Demo: "https://cuk.ac.in/CUK-IQAC/index.php",
-  },
-  {
-    Projectname: "Todo APP",
-    tech: "MERN",
-    imageUrl: TODO,
-    des: "Todo using Mern Stack here we can add todo, delete todo, completed todo",
-    Demo: "https://todoapp-yesg.netlify.app",
-  },
-];
 const skills = [
   "React js         ★★★☆☆",
   "Express js       ★★☆☆☆",
@@ -60,6 +10,7 @@ const skills = [
   "Tailwind css     ★★★☆☆",
   "Graphic Designer ★★★☆☆",
   "Logo Designer    ★★★☆☆",
+  "Canva            ★★★☆☆",
   "Next js          ★★☆☆☆",
 ];
 // const Rate = ["★★★☆☆", "★★☆☆☆", "★★★☆☆", "★★★☆☆", "★★★☆☆", "★★★☆☆"];
@@ -68,7 +19,7 @@ export default function Aboutme() {
     <div className="bg-gray-900" id="About Me">
       <main className="relative isolate">
         {/* Header section */}
-        <div className="px-6 pt-12 lg:px-8">
+        <div className="px-6 pt-8 lg:px-8">
           <div className="mx-auto max-w-2xl pt-14 text-center sm:pt-10">
             <h2 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">
               About Me
@@ -77,26 +28,29 @@ export default function Aboutme() {
         </div>
 
         <div className="relative isolate -z-10 mt-32 sm:mt-16">
-          <div className="mx-auto max-w-7xl sm:px-6 lg:px-8">
+          <div className="mx-auto max-w-8xl sm:px-6 lg:px-8">
             <div className="mx-auto flex max-w-2xl flex-col gap-16 bg-white/5 px-6 py-16 ring-1 ring-white/10 sm:rounded-3xl sm:p-8 lg:mx-0 lg:max-w-none lg:flex-row lg:items-center lg:py-20 xl:gap-x-20 xl:px-20">
               <img
                 className="h-96 w-full flex-none rounded-2xl  shadow-xl lg:aspect-square lg:h-auto lg:max-w-sm object-contain"
                 src={Profile}
-                alt=""
+                alt="Image"
               />
               <div className="w-full flex-auto">
                 <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
                   Sadanand Gadwal
                 </h2>
                 <p className="mt-6 text-lg leading-8 text-gray-300">
-                  I'm a Full Stack Web Developer, MERN. Currently pursuing MCA.
-                  From the Central University of Karnataka, Kalaburagi. I have a
-                  very serious passion towards Web development. I am skilled in
-                  tech [React js, Mongo DB, Express js, Node js ]. not limited
-                  to only this programming. I am a fast learner and I can adapt
-                  new stacks according to the requirements. I am confident that
-                  my passion for Web development makes me a strong candidate for
-                  your company.
+                  I am a passionate Full Stack Web Developer specializing in the
+                  MERN stack (MongoDB, Express.js, React.js, and Node.js).
+                  Currently, I am pursuing an MCA degree from the Central
+                  University of Karnataka, Kalaburagi. With a strong focus on
+                  web development, I possess expertise in technologies such as
+                  React.js, tailwind css, Material UI etc. However, my skills
+                  are not limited to these programming languages, as I am a fast
+                  learner and can adapt to new stacks based on project
+                  requirements. I am confident that my passion for web
+                  development and my ability to quickly grasp new technologies
+                  make me a strong candidate for any company.
                 </p>
                 <ul
                   role="list"
@@ -126,7 +80,7 @@ export default function Aboutme() {
                   >
                     Github <span aria-hidden="true">&rarr;</span>
                   </a>
-                  {" ...."}
+                  &nbsp;&nbsp;
                   <a
                     href=" https://www.linkedin.com/in/sadanand-gadwal/"
                     className="text-sm font-semibold leading-6 text-indigo-400"
@@ -150,56 +104,6 @@ export default function Aboutme() {
               }}
             />
           </div>
-        </div>
-        <div className="mx-auto mt-32 max-w-7xl px-6 py-10 sm:mt-40 lg:px-8">
-          <div className="mx-auto max-w-7xl lg:mx-0">
-            <h2 className="text-4xl font-bold tracking-tight text-white sm:text-6xl text-center ">
-              Portfolio
-            </h2>
-          </div>
-          <ul
-            role="list"
-            className="mx-auto mt-20 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-14 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3 xl:grid-cols-4"
-          >
-            {portfolio.map((project) => (
-              <li key={project.Projectname}>
-                <img
-                  className="aspect-[14/13] w-full rounded-2xl object-contain border"
-                  src={project.imageUrl}
-                  alt=""
-                />
-
-                <h3 className="mt-6 text-lg font-semibold leading-8 tracking-tight text-white">
-                  {project.Projectname}
-                </h3>
-                <p className="text-base leading-7 text-gray-300">
-                  {project.tech}
-                </p>
-                <p className="text-sm leading-6 text-gray-500">{project.des}</p>
-                {/* <button>
-                  <p className="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">
-                    {person.Demo}
-                  </p>
-                </button> */}
-                {/* <button className="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-4 focus:outline-none hover:bg-indigo-600 rounded text-lg">
-                  Live
-                </button> */}
-                {/* <button className="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">
-                  {person.Demo}
-                </button> */}
-                <a
-                  herf={project.Demo}
-                  className="text-sm leading-6 text-gray-50 hover:text-gray-400 cursor-pointer "
-                  onClick={(e) => {
-                    e.preventDefault();
-                    window.open(project.Demo, "_blank", "noreffrer");
-                  }}
-                >
-                  Live --
-                </a>
-              </li>
-            ))}
-          </ul>
         </div>
       </main>
     </div>

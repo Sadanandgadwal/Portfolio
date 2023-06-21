@@ -5,8 +5,9 @@ const main = [
   "Home",
   "About Me",
   "Portfolio",
+  "Work",
   "Contact",
-  // { name: "Blog", href: "/" },
+  // { name: "Home", href: "/" },
 ];
 const navigation = {
   social: [

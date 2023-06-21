@@ -1,8 +1,8 @@
 const tabs = [
-  { name: "Home", href: "#", current: true },
-  { name: "About Me", href: "#", current: false },
-  { name: "Portfolio", href: "#", current: false },
-  { name: "Contact", href: "#", current: false },
+  { name: "Home", href: "/", current: true },
+  { name: "About Me", href: "/About Me", current: false },
+  { name: "Portfolio", href: "/Portfolio", current: false },
+  { name: "Contact", href: "?contact", current: false },
 ];
 
 function classNames(...classes) {
