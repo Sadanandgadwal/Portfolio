@@ -95,7 +95,7 @@ export default function Portfolio() {
                     className="text-sm leading-6 text-gray-50 hover:text-gray-400 cursor-pointer "
                     onClick={(e) => {
                       e.preventDefault();
-                      window.open(project.Demo, "_blank", "noreffrer");
+                      project.Demo, "_blank", "noreffrer";
                     }}
                   >
                     <button class="bg-blue-500 hover:bg-blue-700 text-white font-sans py-1 px-2 rounded">
