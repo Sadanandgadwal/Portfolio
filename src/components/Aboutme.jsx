@@ -13,7 +13,7 @@ const skills = [
   "Canva            ★★★☆☆",
   "Next js          ★★☆☆☆",
 ];
-// const Rate = ["★★★☆☆", "★★☆☆☆", "★★★☆☆", "★★★☆☆", "★★★☆☆", "★★★☆☆"];
+const Rate = ["★★★☆☆", "★★☆☆☆", "★★★☆☆", "★★★☆☆", "★★★☆☆", "★★★☆☆"];
 export default function Aboutme() {
   return (
     <div className="bg-gray-900" id="About Me">
@@ -58,8 +58,8 @@ export default function Aboutme() {
                 >
                   {skills.map((benefit) => (
                     <li key={benefit} className="flex gap-x-3">
-                      <BsFillCircleFill
-                        className="h-7 w-5 flex-none "
+                      <span
+                        className="h-7 w-7 flex-none rounded-[50%] bg-white"
                         aria-hidden="true"
                       />
                       {benefit}
@@ -75,7 +75,7 @@ export default function Aboutme() {
                 <div className="mt-10 flex">
                   <a
                     href="https://github.com/Sadanandgadwal"
-                    className="text-sm font-semibold leading-6 text-indigo-400"
+                    className="text-sm font-semibold leading-6 text-purple-700"
                     target="_blank"
                   >
                     Github <span aria-hidden="true">&rarr;</span>
@@ -83,7 +83,7 @@ export default function Aboutme() {
                   &nbsp;&nbsp;
                   <a
                     href=" https://www.linkedin.com/in/sadanand-gadwal/"
-                    className="text-sm font-semibold leading-6 text-indigo-400"
+                    className="text-sm font-semibold leading-6 text-purple-700"
                     target="_blank"
                   >
                     LinkedIn <span aria-hidden="true">&rarr;</span>

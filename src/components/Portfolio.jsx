@@ -4,8 +4,8 @@ import Techstack from "../images/Techstack.png";
 import EasyBooks from "../images/EasyBooks.png";
 import Attendance from "../images/attendancereport.jpeg";
 import CUK from "../images/CUK-IQAC.png";
-import news from "../images/news.png";
-import TODO from "../images/todo.png";
+
+import TODO from "../images/todo1.png";
 
 const portfolio = [
   {
@@ -87,7 +87,7 @@ export default function Portfolio() {
                       window.open(project.Demo, "_blank", "noreferrer");
                     }}
                   >
-                    <button class="bg-blue-500 hover:bg-blue-700 text-white font-sans py-1 px-2 rounded">
+                    <button class=" mx-auto text-white bg-purple-800 border-0 py-1 px-2 focus:outline-none hover:bg-indigo-600 rounded text-lg">
                       View
                     </button>
                   </span>

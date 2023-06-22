@@ -98,7 +98,7 @@ function Footer() {
               <div key={index} className="pb-6">
                 <Link
                   to={item}
-                  className="text-sm leading-6 text-gray-50 hover:text-gray-400"
+                  className="text-sm leading-6 text-gray-50 hover:text-gray-400 cursor-pointer"
                 >
                   {item}
                 </Link>
@@ -106,12 +106,12 @@ function Footer() {
             );
           })}
         </nav>
-        <div className="mt-10 flex justify-center space-x-10">
+        <div className="mt-10 flex justify-center space-x-10 ">
           {navigation.social.map((item) => (
             <a
               key={item.name}
               href={item.href}
-              className="text-gray-50 hover:text-gray-50"
+              className="text-gray-50 hover:text-gray-50 cursor-pointer"
               target="_blank"
             >
               <span className="sr-only">{item.name}</span>
